@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background: #f4f4f4;
+}
+
+.hero {
+    background: #516C8D;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.input-num {
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    border: 2px solid #6A91C1;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.input-num::placeholder {
+    color: #FFFFFF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.convert-btn{
+    display: block;
+    margin: 27px auto 0;
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    color: #3D3D3D;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    padding: 15px;
+    margin-bottom: 20px; 
+}
+
+section {
+    background: #FFFFFF;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section > h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5A537B;
+}
+
+section > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #353535;
+}
